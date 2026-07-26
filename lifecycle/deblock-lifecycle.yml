@@ -1,0 +1,13 @@
+generated: '2026-07-18'
+method: searched
+source: https://deblock.com
+notes: >-
+  Deblock is a consumer mobile fintech app and does not publish a public API,
+  versioning policy, deprecation policy, or SLA. The only lifecycle-relevant
+  public surface is an operational status page. Fields below reflect what is
+  genuinely published; absence is recorded as null.
+versioning: null
+deprecation: null
+sla: null
+status_page: https://status.deblock.com/
+deprecated_operations: []

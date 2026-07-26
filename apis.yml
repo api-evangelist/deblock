@@ -1,8 +1,30 @@
 aid: deblock
 name: Deblock
-description: Deblock is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Deblock is a fintech company offering a hybrid financial app that combines a
+  fully licensed current account with a French IBAN and a Visa debit card
+  alongside a self-custodial (non-custodial) crypto wallet, so customers hold
+  their own private keys while spending fiat and crypto in everyday life. Founded
+  by former Revolut and Ledger team members and registered with France's AMF as a
+  digital-asset service provider, Deblock lets users buy, sell and swap crypto
+  through an integrated exchange, earn interest on their current account balance,
+  and round spare change up into Bitcoin. Its consumer product is delivered as a
+  mobile app under the tagline "Own Your Money"; Deblock does not currently
+  publish a public developer API, portal, or documentation. This profile was
+  added to the API Evangelist network from the Speedinvest venture portfolio.
 url: https://raw.githubusercontent.com/api-evangelist/deblock/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://deblock.com/favicon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +33,50 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Fintech
+- Banking
+- Neobank
+- Cryptocurrency
+- Digital Wallet
+- Self-Custody
+- Payments
+- Visa Card
+- IBAN
+- Exchange
 apis: []
+common:
+- type: DomainSecurity
+  url: security/deblock-domain-security.yml
+- type: Website
+  url: https://deblock.com
+- type: SignUp
+  url: https://deblock.com/en-FR/download
+- type: Login
+  url: https://app.deblock.com/en
+- type: Pricing
+  url: https://deblock.com/en-FR/pricing-plans
+- type: TermsOfService
+  url: https://deblock.com/en-FR/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://deblock.com/en-FR/privacy-policy
+- type: Support
+  url: https://deblock.com/en-FR/frequently-asked-questions
+- type: GitHubOrganization
+  url: https://github.com/deblockapp
+- type: StatusPage
+  url: https://status.deblock.com/
+- type: Lifecycle
+  url: lifecycle/deblock-lifecycle.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
