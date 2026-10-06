@@ -44,7 +44,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 tags:
 - Company
 - Fintech
@@ -59,6 +59,8 @@ tags:
 - Exchange
 apis: []
 common:
+- url: https://deblock.com/en/press
+  type: Blog
 - type: DomainSecurity
   url: security/deblock-domain-security.yml
 - type: Website
